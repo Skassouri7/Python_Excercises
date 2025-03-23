@@ -26,9 +26,7 @@ while not game_over:
     print(f"You have {lives} lives left")
     print(f"PG: {previous_guesses}")
 
-
     guess = input("Guess a letter: ").lower()
-
 
     # TODO-4: - If the user has entered a letter they've already guessed, print the letter and let them know.
     if guess in previous_guesses:
